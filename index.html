@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,31 +8,46 @@
     <link rel="stylesheet" href="style.css">
     <title>Парк ИТ-Сатка</title>
 </head>
+<body>
 <header>
     <div class="cont1">
         <div class="logotext">
-        <img src="img/logo 1.png" alt="">
-        <div class="tl">
-            <h1>PARK IT</h1>
-            <h2>Сатка</h2>
-        </div>
+            <img src="img/logo 1.png" alt="">
+            <div class="tl">    
+                <h1>PARK IT</h1>
+                <h2>Сатка</h2>
+            </div>
         </div>
         <nav>
             <ul>
                 <li><a href="index.html">Главная</a></li>
-                <li><a href="#about">О нас</a></li>
+                <li><a href="#komanda">О нас</a></li>
                 <li><a href="#services">Предлагаем</a></li>
-                <li><a href="#contacts">Контакты</a></li>
+                <li><a href="#contactes">Контакты</a></li>
                 <li><a href="4about.html">Приложение</a></li>
             </ul>
         </nav>
+        <img src="img/Component 5.png" alt="Меню" class="menu-toggle" style="cursor: pointer;"> <!-- Иконка для открытия меню -->
     </div>
     <div class="sag">
-    <h3>Внедрение и сопровождение программ на платформе 1С:Предприятие</h3>
+        <h3>Внедрение и сопровождение программ на платформе 1С:Предприятие</h3>
     </div>
     <button>Подробнее</button>
 </header>
-<div class="cont2">
+<!-- Мобильное меню -->
+<div class="mobile-menu">
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="#komanda">О нас</a></li>
+            <li><a href="#services">Предлагаем</a></li>
+            <li><a href="#contactes">Контакты</a></li>
+            <li><a href="4about.html">Приложение</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div id="komanda" class="cont2">
     <div class="komanda">
     <h1> Наша Команда</h1>
     <p>
@@ -49,7 +64,7 @@
     </p>
   </div>
 </div>
-<div class="cont3">
+<div id="services" class="cont3">
     <h1>Наши Услуги</h1>
     <div class="blocks">
         <div class="block">
@@ -87,6 +102,15 @@
     <h1>Наши Работы</h1>
     <div class="blocks2">
         <div class="block2">
+            <h1 class="mob1">Система позволяет:</h1>
+            <ul class="mob2">
+                <li>Вести учет перевозимых материалов (насыпных и в таре) с использованием автомобильных и ж/д весов.</li>
+                <li>Формировать различные первичные документы (путевые листы, ТТН и т.п.).</li>
+                <li>Осуществлять контроль за работой и перемещениями автотранспорта с помощью средств спутниковой навигации.</li>
+                <li>Подключать различное оборудование (весы, сканеры штрих-кодов, транспондеры и т.п.).</li>
+                <li>Обмениваться данными с различными системами (SAP, 1C и т.д.).</li>
+                <li>Формировать отчеты по перевозкам в различных ракурсах.</li>
+            </ul>
             <h1 class="hover-title" data-hover-title="Система позволяет:" data-hover-text="Новый текст для автотранспорта">Система контроля работы автотранспорта и учета перевозимых грузов</h1>
             <div class="hover-content" style="display: none;">
                 <h2 class="hover-title-text"></h2>
@@ -105,6 +129,18 @@
             <img src="img/Rectangle 34 2.png" alt="">
         </div>
         <div class="block2">
+            <h1 class="mob1">Возможности системы:</h1>
+            <ul class="mob2">
+                <li>Однократная регистрация документа с уникальным идентификатором.</li>
+                <li>Единая база документов.</li>
+                <li>Система поиска документов.</li>
+                <li>Согласование документов.</li>
+                <li>Прозрачность прохождения, контроль за исполнением документов.</li>
+                <li>Доступ из любой точки, где есть интернет.</li>
+                <li>Интеграция с корпоративной электронной почтой и различными системами (SAP, 1C и т.д.).</li>
+                <li>Рассылка напоминаний и уведомлений.</li>
+                <li>Гибкое добавление любых видов документов, настройка маршрутов их прохождения.</li>
+            </ul>
             <h1 class="hover-title" data-hover-title="Возможности системы:" data-hover-text="Новый текст для автотранспорта">Система контроля работы автотранспорта и учета перевозимых грузов</h1>
             <div class="hover-content" style="display: none;">
                 <h2 class="hover-title-text"></h2>
@@ -149,7 +185,7 @@
             <h2>Сатка</h2>
         </div>
     </div>
-    <div class="info-container">
+    <div id="contactes" class="info-container">
         <div class="addres">
             <h1>Челябинская обл., г.Сатка, ул.Солнечная, 32</h1>
             <h2>+7 (35161) 9-52-51</h2>
