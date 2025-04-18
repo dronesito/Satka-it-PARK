@@ -735,7 +735,8 @@ button {
         width: 150px;
         height: 230px;
     }
-    .karta {
+    .karta,
+    .hover-title {
 display: none;
     }
     .addres h1, h2, h3 {
